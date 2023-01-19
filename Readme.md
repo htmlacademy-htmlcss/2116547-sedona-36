@@ -1,7 +1,7 @@
-# Личный проект «Седона»
+# Личный проект «Седона�.�
 
 * Студент: [Luba Dmitrieva](https://up.htmlacademy.ru/htmlcss/36/user/2116547).
-* Наставник: `Неизвестно`.
+* Наставник: `Ирина Малиновская` (https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
