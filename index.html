@@ -7,9 +7,10 @@
   <body>
 <header class="page-header">
   <nav = class"main-navigation">
-    <p class="logo">
+    <a class="logo-link" >
+      <p class="logo">
       <img src="#" alt="Логотип города Седона">
-    </p>
+    </p></a>
   <nav class="navigation">
     <ul class="navigation-list">
       <li class="navigation-item">
@@ -49,8 +50,11 @@
   
 </header>
   <main class="main-index">
-    <h1>Седона-небольшой городок в Аризоне, заслуживающий большего!</h1>
-    <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+    <section class="hero">
+      <h1 class="visually-hidden">Седона-небольшой городок в Аризоне, заслуживающий большего!</h1>
+      <img src="#" alt=" Седона-небольшой городок в Аризоне">
+      <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+    </section>
     <section class="advantages">
       <h2 class="visually-hidden">Приемущества</h2>
       <ul class="advantages-list">
@@ -76,28 +80,62 @@
         </li>
       </ul>
     </section>
-    <section class="city-service">
+    <section class="features">
       <h2 class="slogan">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
       <p>Опытный персонал и качественное обслуживание!</p>
-      <ul class="city-service-list">
-        <li class="city-service-list-item">
-          <h3 class="city-service-title">Жильё</h3>
-           <p class="city-service-description">Рекомендуем пожить в настоящем мотеле, 
+      <ul class="features-list">
+        <li class="features-list-item">
+          <h3 class="features-title">Жильё</h3>
+           <p class="features-description">Рекомендуем пожить в настоящем мотеле, 
             всё как в кино!</p>
         </li>
-        <li class="city-service-list-item">
-          <h3 class="city-service-title">еда</h3>
-          <p class="city-service-description">Всегда заказывайте
+        <li class="features-list-item">
+          <h3 class="features-title">еда</h3>
+          <p class="features-description">Всегда заказывайте
             топовый фирменный бургер, вы не разочаруетесь!</p>
         </li>
-        <li class="city-service-list-item">
-          <h3 class="city-service-title">сувениры</h3>
-          <p class="city-service-description">Не только китайского, 
+        <li class="features-list-item">
+          <h3 class="features-title">сувениры</h3>
+          <p class="features-description">Не только китайского, 
             но и настоящего местного производства!</p>
         </li>
       </ul>
     </section>
+<section class="search">
+  <h2 class="search-title">Заинтересовались?</h2>
+   <p class="search-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+   <a class="search-link-botton" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+</section>
+<section class="newsletter">
+  <h2 class="newsletter-title">ПОДПИШИСЬ НА РАССЫЛКУ</h2>
+  <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p> 
+  <form class="newsletter-form" action="#" method="post">
+    <label for="newsletter-mail">Email</label>
+    <input class="field" placeholder="Ваш e-mail" type="mail" name="newsletter-email" id="newsletter-mail" required>
+    <button class="newsletter-button" type="submit">ПОДПИСАТЬСЯ</button>
+  </form>
+</section>
   </main>  
-
   </body>
+  <footer class="main-footer">
+    <h2 class="visually-hidden">Социальные сети</h2>
+    <ul class="social-list">
+      <li class="social-list-item">
+        <a href="#">
+          <img src="#" alt="Вконтакте">
+        </a>
+      </li>
+      <li class="social-list-item">
+        <a href="#">
+          <img scr="#" alt="Телеграм">
+        </a>
+      </li>
+      <li class="social-list-item">
+        <a href="#">
+          <img scr="#" alt="you Tube">
+        </a>
+      </li>
+    </ul>
+    <a href="tel:+78128121212">+7(812)8121212</a>
+  </footer>
 </html>
