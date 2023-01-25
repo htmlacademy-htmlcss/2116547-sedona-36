@@ -8,9 +8,8 @@
     <header class="page-header">
         <nav = class"main-navigation">
           <a class="logo-link"  href="index.html">
-            <p class="logo">
             <img src="#" alt="Логотип города Седона">
-          </p></a>
+          </a>
         <nav class="navigation">
           <ul class="navigation-list">
             <li class="navigation-item">
@@ -66,10 +65,58 @@
             <form class="catalog-filter" action="#" method="get">
                 <fieldset class="catalog-filter-group">
                     <legend class="catalog-filter-title">Инфраструктура</legend>
+                        <ul class="catalog-filter-list">
+                            <li class="catalog-filter-item">
+                              <label class="control">
+                                <input class="control-input" type="checkbox" name="swimmingpool" checked>
+                                Басейн
+                              </label>
+                            </li>
+                            <li class="catalog-filter-item">
+                                <label class="control">
+                                  <input class="control-input" type="checkbox" name="parking" checked>
+                                  Парковка
+                                </label>
+                            </li>
+                            <li class="catalog-filter-item">
+                                <label class="control">
+                                  <input class="control-input" type="checkbox" name="wi-fi">
+                                  wi-fi
+                                </label>
+                            </li>
+                        </ul>
                 </fieldset>
                 <fieldset class="catalog-filter-group">
                     <legend class="catalog-filter-title">Тип жилья</legend>
+                        <ul class="catalog-filter-list">
+                            <li class="catalog-filter-item">
+                              <label class="control">
+                                <input class="control-input" type="radio" name="apartment-type" value="hotel">
+                                Гостиница
+                              </label>
+                            </li>
+                            <li class="catalog-filter-item">
+                                <label class="control">
+                                  <input class="control-input" type="radio" name="apartment-type" value="motel">
+                                  Мотель
+                                </label>
+                            </li>
+                            <li class="catalog-filter-item">
+                                <label class="control">
+                                  <input class="control-input" type="radio" name="apartment-type" value="apartments">
+                                  Апартаменты
+                                </label>
+                            </li>
+                        </ul>
                 </fieldset>
+                <fieldset class="catalog-filter-group">
+                    <legend class="catalog-filter-title">Стоимость, ₽</legend>
+                    <input class="control-input-min" type="number" name="min-price" value="0" placeholder="от">
+                    <input class="control-input-max" type="number" name="max-price" value="9000" placeholder="до">
+                    <input class="control-input" type="range" name="range" name="price-range">
+                </fieldset> 
+                <button class="button" type="submit">Применить</button>
+                <button class="button" type="submit">Сбросить</button>
             </form>
         </section>
       </main>
