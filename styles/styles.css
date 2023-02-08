@@ -22,8 +22,7 @@ body {
 }
 .page-header {
     color: black;
-    background-color: white;
-     
+    background-color: white;   
 }
 .navigation-list{
     list-style: none; 
@@ -31,18 +30,17 @@ body {
 .navigation-link {
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
+    font-weight: 700;
     line-height:24px;
     color: black;
     text-transform: capitalize;
-    text-decoration: none;
-    text-align: center;
-    
+    text-decoration: none; 
 }
 .main-index {
     font-family: "PT Sans";
     color: black;
     background-color: white;  
-    background-image: url(../images/main/index-background.jpg);
+     url(../images/main/index-background.jpg);
     background-repeat: no-repeat;
     background-size: 1200px;
 }
@@ -74,12 +72,6 @@ p{
   color:#ffffff;
   
 }
-.advantages-item-road {
-    width: 400px;
-    height: 385px;
-    background: rgba(131, 179,211,0.2)
-    
-}
 .advantages-item-square,
 .advantages-item-turists {
     width: 400px;
@@ -87,33 +79,113 @@ p{
     background: rgba(131, 179,211,0.12);
     
 }
-.advantages-title {
+.advantages-item-road {
+    width: 400px;
+    height: 385px;
+    background: rgba(131, 179,211,0.2)
+    
+}
+.advantages-title-city,
+.advantages-title-bridge {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;     
+}
+.advantages-title-square,
+.advantages-title-turists {
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase; 
 }
+.advantages-title-road {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;  
+}
 .advantages-description-city,
 .advantages-description-bridge {
     font-size: 18px;
+    font-weight: 400px;
     line-height: 21px;
     background-color: #82B3D3;
-    color:#ffffff;  
-     
-}
-.advantages-description-road {
-    font-size: 18px;
-    line-height: 21px; 
-    background: rgba(131, 179,211,0.2)
-    
+    color:#ffffff;   
 }
 .advantages-description-square,
 .advantages-description-turists {
     font-size: 18px;
+    font-weight: 400px;
     line-height: 21px;
     background: rgba(131, 179,211,0.12);
 }
+.advantages-description-road {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 21px; 
+    background: rgba(131, 179,211,0.2)   
+}
+.slogan {
+    text-align: center;   
+}
+.features-list {
+    list-style: none;
+}
+.features-list-housing {
+    width: 400px;
+    height: 385px;
+    text-align: center;
+    background: rgba(131, 179,211,0.12); 
+}
+.features-list-food {
+    width: 400px;
+    height: 385px;
+    text-align: center; 
+    
+}
+.features-list-gifts {
+    width: 400px;
+    height: 385px;
+    text-align: center; 
+    background: rgba(131, 179,211,0.12); 
+}
+.search-title {
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 36px;
+    text-align: center;
+}
+.search-description{
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 26px;
+    text-align: center;
+}
+.search-link-button {
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 36px;
+    text-align: center;
+    background: #756157;
+    color:#ffffff; 
+    text-decoration: none;
+
+}
+.newsletter-title{
+    background-image: url(../images/main/)
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 36px;
+    color:white
+    
+}
+
+
+
  
 
 
