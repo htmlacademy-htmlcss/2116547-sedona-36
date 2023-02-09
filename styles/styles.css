@@ -170,7 +170,7 @@ body {
     line-height: 36px;
     text-align: center;
 }
-.search-description{
+.search-description {
     font-size: 22px;
     font-weight: 400px;
     line-height: 26px;
@@ -185,7 +185,7 @@ body {
     color:#ffffff; 
     text-decoration: none;
 }
-.newsletter{
+.newsletter {
     background-image: url(../images/main/newsletter-moutains.jpg);
     background-repeat: no-repeat;
     color:black;
@@ -199,7 +199,7 @@ body {
     text-align: center;
     color:#ffffff  
 }
-.newsletter-description{
+.newsletter-description {
     font-size:  22px;
     font-weight: 400;
     line-height: 26px;
@@ -213,8 +213,123 @@ body {
     text-decoration: none;   
 }
 
+.main-inner {
+    font-family: "PT Sans";
+    color: black;
+    background-color: white;  
+    background: url(../images/main/moutains-main-inner.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    
+}
+.inner-header-tittle {
+    font-size:60px;
+    font-weight: 700px;
+    line-height:78px;
+    color:#ffffff;
+}
+.breadcrumbs-link{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 21px;
+    color: #ffffff;
+}
+.catalog-filter-title{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #ffffff;
+}
+.catalog-filter-item{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 23px;
+    color: #ffffff;
+}
+.button-accept{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background: #82B3D3;
+}
+.button-reset{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+}
+.search-result{
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 36px;
+    color: black;
+}
+.select-control{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.product-list{
+    list-style: none;   
+}
+.product-link{
+    color: black;
+    
+}
+.product-title{
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 28px;
+    color: black;
+    
+}
+.product-price{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 21px;
+    color: black;
+}
+.button-link-detailed{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #756157;
+    text-align: center;
+}
+.button-link-favorites{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background: #82B3D3;
+}
+.button-link-favorites-chosen{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background: #7DB54F; 
+}
+.rating{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 400px;
+    color: #333333;
+    background: #F2F2F2;
 
- 
+}
+.pagination{
+    list-style: none;
+}
+.pagination-link{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 36px;
+    color: #ffffff;
+    background: #82B3D3;
+}
 
 
     
