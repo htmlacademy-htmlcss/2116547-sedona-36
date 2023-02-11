@@ -17,6 +17,7 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 24px;
     line-height: 28px; 
+    font-style: normal;
     color: black;
     background-color: white; 
 }
@@ -53,7 +54,6 @@ body {
     line-height: 36px;
     text-transform: uppercase;
     text-align: center;
-    color: black;
 }
 .welcome-text {
     font-family: "PT Sans";
@@ -86,7 +86,6 @@ body {
     height: 385px;
     background: rgba(131, 179,211,0.2);
     text-align: center;
-
 }
 .advantages-title-city,
 .advantages-title-bridge {
@@ -125,6 +124,7 @@ body {
     font-weight: 400px;
     line-height: 21px;
     background: rgba(131, 179,211,0.12);
+    color: #333333;
 }
 .advantages-description-road {
     font-size: 18px;
@@ -149,72 +149,239 @@ body {
 .features-list-housing {
     width: 400px;
     height: 385px;
-    text-align: center;
-    background: rgba(131, 179,211,0.12); 
+    background: rgba(131, 179,211,0.12);
 }
 .features-list-food {
     width: 400px;
     height: 385px;
-    text-align: center; 
-    
 }
 .features-list-gifts {
     width: 400px;
     height: 385px;
-    text-align: center; 
     background: rgba(131, 179,211,0.12); 
+}
+.features-title{
+    font-size: 24px;
+    font-weight: 700px; 
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+.features-description {
+    font-size:18px;
+    font-weight: 400px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: none;
 }
 .search-title {
     font-size: 30px;
     font-weight: 700px;
     line-height: 36px;
     text-align: center;
+    text-transform: uppercase;
 }
-.search-description{
+.search-description {
     font-size: 22px;
     font-weight: 400px;
     line-height: 26px;
     text-align: center;
+    color: #333333;
 }
 .search-link-button {
     font-size: 20px;
     font-weight: 700px;
     line-height: 36px;
-    text-align: center;
     background: #756157;
     color:#ffffff; 
     text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
 }
-.newsletter{
+.newsletter {
     background-image: url(../images/main/newsletter-moutains.jpg);
     background-repeat: no-repeat;
     color:black;
     background-color: #ffffff;
-
+    background-size:1200px;
 }
 .newsletter-title {
     font-size: 30px;
     font-weight: 700px;
     line-height: 36px;
     text-align: center;
-    color:#ffffff  
+    color:#ffffff;
+    text-transform: uppercase;  
 }
-.newsletter-description{
+.newsletter-description {
     font-size:  22px;
     font-weight: 400;
     line-height: 26px;
     color: #ffffff;
+    text-align: center;
+}
+.newsletter-button{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 36px;
+    color: #ffffff;
+    background: #82B3D3;
+    text-transform: uppercase;
 }
 .social-list {
     list-style: none;   
 }
 .phone {
     color: black;
-    text-decoration: none;   
+    text-decoration: none;  
 }
 
 
- 
+/*catalog.html*/
+
+
+.main-inner {
+    font-family: "PT Sans";
+    font-style: normal;
+    color: black;
+    background-color: white;
+    background: url(../images/main/moutains-main-inner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 412px;
+}
+.inner-header-tittle {
+    font-size:60px;
+    font-weight: 700px;
+    line-height:78px;
+    color:#ffffff;
+}
+.breadcrumbs{
+    list-style: none;
+}
+.breadcrumbs-link{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 21px;
+    color: #ffffff;
+}
+.catalog-filter-title{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #ffffff;
+    line-height: 24px;
+}
+.catalog-filter-item{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 23px;
+    color: #ffffff;
+}
+.button-accept{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background: #82B3D3;
+    text-transform: uppercase;
+}
+.button-reset{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+}
+.search-result{
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.select-control{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+}
+.product-list{
+    list-style: none;   
+}
+.product-link{
+    color: black;
+    text-decoration: none;
+    
+}
+.product-title{
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 28px;
+}
+.product-price{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 21px;
+}
+.button-link-detailed{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #756157;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.button-link-favorites{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background: #82B3D3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.button-link-favorites-chosen{
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #ffffff;
+    background: #7DB54F; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.rating{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 400px;
+    color: #333333;
+    background: #F2F2F2;
+
+}
+.pagination{
+    list-style: none;
+}
+
+.pagination-item-first-page{
+    width: 60px;
+    height: 60px;
+    color: black;
+    background:#F2F2F2;   
+}
+.pagination-item{
+    width: 60px;
+    height: 60px;
+    color: #ffffff; 
+    background: #82B3D3;
+}
+.pagination-link{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 36px;
+    color: #ffffff;
+    background: #82B3D3;
+    text-decoration: none;
+}
 
 
     
