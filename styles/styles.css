@@ -13,20 +13,39 @@
     font-display: swap;
 }
 
+.html{
+    height: 100%;
+}
 body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
     font-family: "PT Sans", sans-serif;
     font-size: 24px;
     line-height: 28px; 
     font-style: normal;
     color: black;
     background-color: white; 
+    min-height: 100%;
 }
 .page-header {
     color: black;
     background-color: white;   
 }
+.navigation{
+    display: flex;
+    width: 1200px;
+    margin:0 auto;
+}
 .navigation-list{
+    margin: 0;
+    padding: 0;
     list-style: none; 
+    width: 627px;
+}
+.navigation-user{
+  width: 268px;  
+  margin-left: auto;
 }
 .navigation-link {
     font-family: "PT Sans", sans-serif;
@@ -38,7 +57,7 @@ body {
     text-decoration: none;
 }
 .visually-hidden {
-  visibility: hidden;  
+  visibility:;  
 }
 .main-index {
     font-family: "PT Sans";
@@ -47,6 +66,13 @@ body {
     background: url(../images/main/index-background.jpg);
     background-repeat: no-repeat;
     background-size: 1200px;
+}
+.main-container{
+    flex-grow: 1;
+}
+.page-container{
+    width: 1200px;
+    margin: 0 auto;
 }
 .slogan-advantages {
     font-size: 30px;
@@ -244,11 +270,12 @@ body {
     font-family: "PT Sans";
     font-style: normal;
     color: black;
-    background-color: white;
+    background-color: white;  
+}
+.catalog-apartments{
     background: url(../images/main/moutains-main-inner.jpg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    min-height: 412px;
+    background-size:cover;
 }
 .inner-header-tittle {
     font-size:60px;
@@ -293,6 +320,7 @@ body {
     background: rgba(0, 0, 0, 0);
     text-transform: uppercase;
 }
+
 .search-result{
     font-size: 30px;
     font-weight: 700px;
