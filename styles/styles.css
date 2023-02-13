@@ -281,6 +281,9 @@ margin: 0 auto;
     background: #82B3D3;
     text-transform: uppercase;
 }
+.main-footer page-footer-container{
+    background: white;  
+}
 .social-list {
     list-style: none;  
 }
@@ -362,6 +365,7 @@ margin: 0 auto;
     background: #82B3D3;
     text-transform: uppercase;
     width: 191px;
+    margin-right: 32px;
     
 }
 .button-reset{
@@ -419,6 +423,7 @@ margin: 0 auto;
     text-transform: uppercase;
     width: 140px;
     height: 36px;
+    margin-right: 20px;
     
 }
 .button-link-favorites{
