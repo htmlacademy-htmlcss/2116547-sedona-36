@@ -54,7 +54,7 @@ margin: 0 auto;
     margin: 0;
     padding: 0;
     list-style: none; 
-    width: 510px;
+    width:510px;
 }
 .navigation-user{
   width: 310px;  
@@ -79,10 +79,10 @@ margin: 0 auto;
     width: 160px;
     text-align: center;
     text-decoration: none;
-    border-
+    padding: 8px 34px;
 }
 .visually-hidden {
-  visibility:hid;  
+  visibility:hidden;  
 }
 .main-index {
     font-family: "PT Sans";
@@ -113,6 +113,9 @@ margin: 0 auto;
     line-height: 26px;
     text-align: center;
     color:#333333 
+}
+.advantages-items-container{
+    margin: 69px 274px;
 }
 .advantages-list{
     list-style: none; 
@@ -203,6 +206,9 @@ margin: 0 auto;
     line-height: 21px; 
     background: rgba(131, 179,211,0.2); 
 }
+.features-items-container{
+    margin: 64px 354px;
+}
 .slogan {
     text-align: center;   
 }
@@ -220,7 +226,6 @@ margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: start;
-
 }
 .features-list-housing {
     width: 400px;
@@ -231,7 +236,7 @@ margin: 0 auto;
     width: 400px;
     height: 385px;
 }
-.features-list-gifts {
+.features-list-gifts{
     width: 400px;
     height: 385px;
     background: rgba(131, 179,211,0.12); 
@@ -249,7 +254,7 @@ margin: 0 auto;
     text-align: center;
     text-transform: uppercase; 
 }
-.features-description {
+.features-description{
     font-size:18px;
     font-weight: 400px;
     line-height: 21px;
@@ -257,7 +262,7 @@ margin: 0 auto;
     text-transform: none;
 }
 .search{
-    
+    padding: 96px 34px;
 }
 .search-title {
     font-size: 30px;
@@ -287,10 +292,11 @@ margin: 0 auto;
     margin: 0 auto;
 }
 .newsletter-index{
-
-    color:black;
+    background-image: url(../images/main/newsletter-moutains.jpg);
+    background-repeat: no-repeat;
     background-color: #ffffff;
-    background-size:1200px;
+    color:black;
+    padding: 96px 258px;
 }
 .newsletter-title {
     font-size: 30px;
@@ -308,20 +314,17 @@ margin: 0 auto;
     text-align: center;
 }
 .newsletter-button{
+    width: 230px;
+    min-height: 52px;
     font-size: 20px;
     font-weight: 700px;
     line-height: 36px;
     color: #ffffff;
     background: #82B3D3;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }
 .newsletter-form{
     display: flex;
-}
-.newsletter-container{
-    height: 414px;
-    background-image: url(../images/main/newsletter-moutains.jpg);
-    background-repeat: no-repeat;
 }
 .main-footer page-footer-container{
     background: white;  
