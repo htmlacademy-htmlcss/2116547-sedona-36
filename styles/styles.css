@@ -16,7 +16,7 @@
 .html{
     height: 100%;
 }
-body {
+body{
     margin:0;
     display: flex;
     flex-direction: column;
@@ -28,13 +28,13 @@ body {
     background: #F2F2F2;
     min-height: 100%;
 }
-.page-header {
+.page-header{
     color: black;
     background-color: white;   
 }
 .main-image{
-display: block;
-margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 .navigation{
     display: flex;
@@ -49,18 +49,15 @@ margin: 0 auto;
 .navigation-list{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap:20px;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none; 
-    width:510px;
+    min-width:510px;
 }
-.navigation-user{
-  width: 310px;  
-  margin-left: auto;
-}
-.navigation-link {
+.navigation-link{
+    display: block;
+    padding: 20px 16px;
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -69,20 +66,33 @@ margin: 0 auto;
     text-transform: capitalize;
     text-decoration: none;
 }
+.navigation-user{
+    min-width: 310px;  
+    margin-left: auto;
+}
 .navigation-button{
+    display: block;
+    padding: 8px 34px;
     font-size: 16px;
     font-weight: 700px;
     line-height: 20px;
     background: #756157;
     color: #ffffff;
+    text-align: center;
     text-transform: uppercase;
     width: 160px;
-    text-align: center;
     text-decoration: none;
-    padding: 8px 34px;
 }
 .visually-hidden {
-  visibility:hidden;  
+   visibility:hidden;
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   border: 0;
+   clip: rect(0 0 0 0);
+   overflow: hidden;
 }
 .main-index {
     font-family: "PT Sans";
@@ -100,6 +110,7 @@ margin: 0 auto;
     margin: 0 auto;
 }
 .slogan-advantages{
+    margin: 0;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -107,6 +118,7 @@ margin: 0 auto;
     text-align: center;
 }
 .welcome-text{
+    margin: 0;
     font-family: "PT Sans";
     font-size: 22px; 
     font-weight: 400;
@@ -127,9 +139,9 @@ margin: 0 auto;
 }
 .advantages-item-city,
 .advantages-item-bridge{
-  display: flex;
-  width: 1200px;
-  background-color: #82B3D3;
+   display: flex;
+   width: 1200px;
+   background-color: #82B3D3;
 }
 .advantages-item-square,
 .advantages-item-turists{
@@ -184,6 +196,7 @@ margin: 0 auto;
 }
 .advantages-description-city,
 .advantages-description-bridge{
+    margin: 0;
     font-size: 18px;
     font-weight: 400px;
     line-height: 21px;
@@ -193,6 +206,7 @@ margin: 0 auto;
 }
 .advantages-description-square,
 .advantages-description-turists{
+    margin: 0;
     font-size: 18px;
     font-weight: 400px;
     line-height: 21px;
@@ -201,6 +215,7 @@ margin: 0 auto;
     text-align: center;
 }
 .advantages-description-road{
+    margin: 0;
     font-size: 18px;
     font-weight: 400px;
     line-height: 21px; 
@@ -210,9 +225,11 @@ margin: 0 auto;
     margin: 64px 354px;
 }
 .slogan {
+    margin: 0;
     text-align: center;   
 }
 .slogan-features {
+    margin: 0;
     font-family: "PT Sans";
     font-size: 22px; 
     font-weight: 400;
@@ -255,6 +272,7 @@ margin: 0 auto;
     text-transform: uppercase; 
 }
 .features-description{
+    margin: 0;
     font-size:18px;
     font-weight: 400px;
     line-height: 21px;
@@ -264,21 +282,24 @@ margin: 0 auto;
 .search{
     padding: 96px 34px;
 }
-.search-title {
+.search-title{
     font-size: 30px;
     font-weight: 700px;
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
 }
-.search-description {
+.search-description{
+    margin: 0;
     font-size: 22px;
     font-weight: 400px;
     line-height: 26px;
     text-align: center;
     color: #333333;
 }
-.search-link-button {
+.search-link-button{
+    display: block;
+    margin: 0 auto;
     font-size: 20px;
     font-weight: 700px;
     line-height: 36px;
@@ -288,8 +309,6 @@ margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
     width: 367px;
-    display: block;
-    margin: 0 auto;
 }
 .newsletter-index{
     background-image: url(../images/main/newsletter-moutains.jpg);
@@ -298,7 +317,7 @@ margin: 0 auto;
     color:black;
     padding: 96px 258px;
 }
-.newsletter-title {
+.newsletter-title{
     font-size: 30px;
     font-weight: 700px;
     line-height: 36px;
@@ -329,12 +348,20 @@ margin: 0 auto;
 .main-footer page-footer-container{
     background: white;  
 }
+
 .social-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;  
+}
+.social-list-item{
+    width: 47px;
+    height: 40px;
 }
 .phone {
     color: black;
-    text-decoration: none;  
+    text-decoration: none; 
 }
 
 
@@ -411,7 +438,6 @@ margin: 0 auto;
     text-transform: uppercase;
     width: 191px;
     margin-right: 32px;
-    
 }
 .button-reset{
     font-size: 16px;
@@ -422,7 +448,6 @@ margin: 0 auto;
     text-transform: uppercase;
     width: 191px;
 }
-
 .search-result{
     font-size: 30px;
     font-weight: 700px;
@@ -468,8 +493,7 @@ margin: 0 auto;
     text-transform: uppercase;
     width: 140px;
     height: 36px;
-    margin-right: 20px;
-    
+    margin-right: 20px; 
 }
 .button-link-favorites{
     font-size: 16px;
