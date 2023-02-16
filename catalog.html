@@ -40,7 +40,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">
+              <span>
                 Хочу сюда
               </span>
             </a>
@@ -64,7 +64,7 @@
       <section class="catalog-apartments">
         <h2 class="visually-hidden">Список гостиниц</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="catalog-filter-features">
+          <fieldset class="catalog-filter-additionals">
             <legend class="catalog-filter-title">Инфраструктура</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
@@ -110,7 +110,7 @@
             </li>
           </ul>
         </fieldset>
-        <fieldset class="catalog-filter-price">
+        <fieldset class="catalog-filter-price-rage">
           <legend class="catalog-filter-title">Стоимость, ₽</legend>
           <input class="control-input-min" type="number" name="min-price" value="0" placeholder="от">
           <input class="control-input-max" type="number" name="max-price" value="9000" placeholder="до">
@@ -129,16 +129,19 @@
           <option value="expensive">Сначало дорогие</option>
         </select>
         <a href="#" class="button-cards">
+          <img src="images/main/view-icon-1.svg" width="16" height="14" alt="Иконка показать карточки">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a href="#" class="button-full-screen">
+        <a href="#" class="button-cards">
+          <img src="images/main/view-icon-2.svg" width="16" height="14" alt="Иконка показать на полный экран">
           <span class="visually-hidden">Показать на полный экран</span>
         </a>
-        <a href="#" class="button-list">
+        <a href="#" class="button-cards">
+          <img src="images/main/view-icon-3.svg" width="16" height="14" alt="Иконка показать списком">
           <span class="visually-hidden">Показать списком</span>
         </a>
         <ul class="product-card">
-          <li class="product-list">
+          <li class="product-item">
             <a class="product-link" href="#">
               <img src="images/main/hotel-1.jpg" width="300" height="212" alt="Amara resorts and spa">
               <h3 class="product-title">Amara Resorts & Spa</h3>
@@ -153,7 +156,7 @@
             <img src="images/main/hotel-stars-4.svg" width="140" height="37" alt="hotel-rating">
             <span class="rating">Рейтинг:8,5</span>
           </li>
-          <li class="product-list">
+          <li class="product-item">
             <a class="product-link" href="#">
               <img src="images/main/hotel-2.jpg" width="300" height="212" alt="Villas at poco Diablo">
               <h3 class="product-title">Villas at poco Diablo</h3>
@@ -168,7 +171,7 @@
             <img src="images/main/hotel-stars-4.svg" width="140" height="37" alt="hotel-rating">
             <span class="rating">Рейтинг:9,2</span>
           </li>
-          <li class="product-list">
+          <li class="product-item">
             <a class="product-link" href="#">
               <img src="images/main/hotel-3.jpg" width="300" height="212" alt="Desert Quail Inn">
               <h3 class="product-title">Desert Quail Inn</h3>
@@ -183,7 +186,7 @@
             <img src="images/main/hotel-stars-3.svg" width="140" height="37" alt="hotel-rating">
             <span class="rating">Рейтинг:6,9</span>
           </li>
-          <li class="product-list">
+          <li class="product-item">
             <a class="product-link" href="#">
               <img src="images/main/hotel-4.jpg" width="300" height="212" alt="GreenTree Inn">
               <h3 class="product-title">GreenTree Inn</h3>
@@ -238,6 +241,7 @@
         </ul>
       </section>
       <section class="newsletter-catalog">
+      <div>
         <h2 class="newsletter-title-inner">подпишись на рассылку</h2>
         <p class="newsletter-description-inner">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -245,6 +249,7 @@
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
           <button class="newsletter-button" type="submit">подписаться</button>
         </form>
+      </div>
       </section>
     </main>
     <footer class="main-footer page-footer-container">
