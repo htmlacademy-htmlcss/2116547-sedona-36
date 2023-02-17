@@ -465,7 +465,11 @@ body{
     text-transform: uppercase; 
     border-style: none;
 }
+.sorting-container{
+    display: flex;
+}
 .search-result{
+    margin-right: 30px;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -476,17 +480,20 @@ body{
     padding: 14px;
     padding-bottom: 14px;
     padding-right: 131px;
+    margin-right: 240px;
     margin-bottom: 105px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
     color: #333333;
 }
+.container-button-cards{
+    height: 14px;
+}
 .button-cards{
-    width: 48px;
-    height: 48px;
-    margin-bottom: 92px;
-    margin-right: 8px;
+    padding: 17px 16px;
+    border-style: solid;
+    color: black;
 }
 .product-card{
     display: flex;
