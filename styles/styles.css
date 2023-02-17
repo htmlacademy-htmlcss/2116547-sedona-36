@@ -75,13 +75,12 @@ body{
     margin-left: 20px;
     padding: 8px 34px;
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 20px;
     background: #756157;
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
-    width: 160px;
     text-decoration: none;
 }
 .visually-hidden {
@@ -200,7 +199,7 @@ body{
 .advantages-description-bridge{
     margin: 0;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 21px;
     background-color: #82B3D3;
     color:#ffffff; 
@@ -210,7 +209,7 @@ body{
 .advantages-description-turists{
     margin: 0;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 21px;
     background: rgba(131, 179,211,0.12);
     color: #333333;
@@ -219,7 +218,7 @@ body{
 .advantages-description-road{
     margin: 0;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 21px; 
     background: rgba(131, 179,211,0.2); 
 }
@@ -229,7 +228,7 @@ body{
 .slogan {
     margin: 0;
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 36px;
     text-align: center; 
     text-transform: uppercase;
@@ -273,7 +272,7 @@ body{
 }
 .features-title{
     font-size: 24px;
-    font-weight: 700px; 
+    font-weight: 700; 
     line-height: 28px;
     text-align: center;
     text-transform: uppercase; 
@@ -281,7 +280,7 @@ body{
 .features-description{
     margin: 0;
     font-size:18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 21px;
     text-align: center;
     text-transform: none;
@@ -291,7 +290,7 @@ body{
 }
 .search-title{
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
@@ -300,23 +299,23 @@ body{
     margin-top: 20px;
     margin-bottom: 54px;
     font-size: 22px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 26px;
     text-align: center;
     color: #333333;
 }
 .search-link-button{
     display: block;
+    width: 367px;
     margin: 0 auto;
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 36px;
     background: #756157;
     color:#ffffff; 
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    width: 367px;
 }
 .newsletter-index{
     background-image: url(../images/main/newsletter-moutains.jpg);
@@ -327,7 +326,7 @@ body{
 }
 .newsletter-title{
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 36px;
     text-align: center;
     color:#ffffff;
@@ -341,10 +340,9 @@ body{
     text-align: center;
 }
 .newsletter-button{
-    width: 230px;
-    min-height: 52px;
+    padding: 8px 50px;
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 36px;
     color: #ffffff;
     background: #82B3D3;
@@ -395,7 +393,7 @@ body{
 }
 .inner-header-tittle{
     font-size:60px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height:78px;
     color:#ffffff;
 }
@@ -408,66 +406,68 @@ body{
 }
 .breadcrumbs-link{
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 21px;
     color: #ffffff;
 }
 .catalog-filter{
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: nowrap; 
 }
 .catalog-filter-additionals{
     border-style: none;
-    width: 150px; 
 }
 .catalog-filter-list{
     list-style: none;
 }
 .catalog-filter-item{
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 23px;
     color: #ffffff;
 }
 .catalog-filter-housing{
     border-style: none;
-    width: 150px;
+    margin-right: 140px;
 }
 
 .catalog-filter-price-rage{
-    border-style: none;
+    border-style: none; 
     width: 288px;
 }
 .catalog-filter-title{
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     color: #ffffff;
     line-height: 24px;
 }
+.filter-buttons{
+    width: 191px;
+}
 .button-accept{
-    margin-bottom: 32px;
     padding: 8px 50px;
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 20px;
     color: #ffffff;
     background: #82B3D3;
     text-transform: uppercase;
-    width: 191px;   
+    border-style: none; 
 }
 .button-reset{
+    margin-top: 32px;
     padding: 8px 50px;
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 20px;
     color: #ffffff;
     background: rgba(0, 0, 0, 0);
-    text-transform: uppercase;
-    width: 191px; 
+    text-transform: uppercase; 
+    border-style: none;
 }
 .search-result{
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
 }
@@ -503,12 +503,12 @@ body{
 }
 .product-title{
     font-size: 24px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 28px;
 }
 .product-price{
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 21px;
 }
 .button-link-detailed{
@@ -516,7 +516,7 @@ body{
     margin-right: 20px; 
     padding: 8px 26px;
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 20px;
     color: #ffffff;
     background-color: #756157;
@@ -524,11 +524,10 @@ body{
     text-transform: uppercase;
     width: 140px;
     height: 36px;
- 
 }
 .button-link-favorites{
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 20px;
     color: #ffffff;
     background: #82B3D3;
@@ -541,7 +540,7 @@ body{
 }
 .button-link-favorites-chosen{
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 20px;
     color: #ffffff;
     background: #7DB54F; 
@@ -554,7 +553,7 @@ body{
 }
 .rating{
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 400px;
     color: #333333;
     background: #F2F2F2;
@@ -564,7 +563,7 @@ body{
 .newsletter-catalog{
     color:black;
     background-color: #ffffff;
-    padding: 96px 258px;
+    padding:96px 258px;
 }
 .newsletter-title-inner{
     font-size: 30px;
@@ -601,7 +600,7 @@ body{
 }
 .pagination-link{
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 36px;
     color: #ffffff;
     background: #82B3D3;
