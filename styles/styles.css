@@ -111,12 +111,15 @@ body{
     background-repeat: no-repeat;
 }
 .slogan-advantages{
+    margin: 0 auto;
+    width: 600px;
+    padding: 69px;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
     text-align: center;
-}
+}  
 .welcome-text{
     margin-top: 20px;
     margin-bottom: 69px;
@@ -126,6 +129,8 @@ body{
     line-height: 26px;
     text-align: center;
     color:#333333 
+    outline: 2px solid #f005;
+    outline-offset: -2px;
 }
 .advantages-list{
     display: flex;
@@ -245,7 +250,6 @@ body{
     margin: 0;
     padding: 0;
     list-style: none;
- 
 }
 .features-list-housing{
     width: 400px;
@@ -359,6 +363,7 @@ body{
 .main-footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: white;  
 }
 .social-list{
