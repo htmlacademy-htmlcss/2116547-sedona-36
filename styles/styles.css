@@ -83,7 +83,7 @@ body{
     text-transform: uppercase;
     text-decoration: none;
 }
-.visually-hidden {
+.visually-hidden{
    visibility:hidden;
    position: absolute;
    width: 1px;
@@ -94,7 +94,7 @@ body{
    clip: rect(0 0 0 0);
    overflow: hidden;
 }
-.main-index {
+.main-index{
     font-family: "PT Sans";
     color: black;
     background-color: white;  
@@ -113,7 +113,7 @@ body{
 .slogan-advantages{
     margin: 0 auto;
     width: 600px;
-    padding: 69px;
+    padding-top: 69px;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -121,7 +121,7 @@ body{
     text-align: center;
 }  
 .welcome-text{
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 69px;
     font-family: "PT Sans";
     font-size: 22px; 
@@ -135,11 +135,11 @@ body{
 .advantages-list{
     display: flex;
     justify-content: start;
+    align-items: center;
     flex-wrap: wrap;
     list-style: none; 
     margin: 0;
     padding: 0;
-
 }
 .advantages-item-city,
 .advantages-item-bridge{
@@ -158,19 +158,12 @@ body{
     min-height: 385px;
     background: rgba(131, 179,211,0.2); 
 }
-.advantages-item-container{
-    width: 230px;
-    min-height: 160px;
-    padding: 113px 85px;
-}
-.advantages-item-wrapper{
-    width: 230px;
-    min-height: 160px;
-    padding: 102px 85px;
-}
 .advantages-item-reverse{
     display: flex;
     flex-direction: row-reverse; 
+}
+.advantages-item-container{
+    width: 400px;  
 }
 .advantages-title-city,
 .advantages-title-bridge{
@@ -184,6 +177,7 @@ body{
 }
 .advantages-title-square,
 .advantages-title-turists{
+    
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
@@ -199,7 +193,8 @@ body{
 }
 .advantages-description-city,
 .advantages-description-bridge{
-    margin: 0;
+    margin: 0 auto;
+    width: 300px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
@@ -209,20 +204,22 @@ body{
 }
 .advantages-description-square,
 .advantages-description-turists{
-    margin: 0;
+    margin: 0 auto;
+    width: 300px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    background: rgba(131, 179,211,0.12);
     color: #333333;
     text-align: center;
 }
 .advantages-description-road{
-    margin: 0;
+    margin: 0 auto;
+    width: 300px;
     font-size: 18px;
     font-weight: 400;
-    line-height: 21px; 
-    background: rgba(131, 179,211,0.2); 
+    line-height: 21px;  
+    color: #333333;
+    text-align: center;
 }
 .slogan{
     margin: 0 auto;
