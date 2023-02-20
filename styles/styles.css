@@ -297,6 +297,7 @@ body{
     font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
+    padding-top: 96px;
 }
 .search-description{
     margin-top: 20px;
@@ -323,6 +324,7 @@ body{
     flex-direction: column;
     justify-content:baseline;
     align-items: center;
+    padding-top: 96px;
     padding-bottom: 104px;
     background-image: url(../images/main/newsletter-moutains.jpg);
     background-repeat: no-repeat;
@@ -405,17 +407,19 @@ body{
 }
 .inner-header{
     padding-right: 70px;
-    padding-left:70px; 
+    padding-left:70px;
 }
 .inner-header-tittle{
     font-size:60px;
     font-weight: 700;
     line-height:78px;
     color:#ffffff;
+    padding-top: 35px; 
+}
+.breadcrumbs-container{
+     display: flex; 
 }
 .breadcrumbs{
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -440,7 +444,7 @@ body{
 }
 .catalog-filter-additionals{
     border-style: none;
-    margin: 0;
+    margin-right: 70px;
     padding: 0;
 }
 .catalog-filter-list{
@@ -457,8 +461,8 @@ body{
 .catalog-filter-housing{
     border-style: none;
     margin-right: 140px;
+    padding: 0;
 }
-
 .catalog-filter-price-rage{
     border-style: none; 
     width: 288px;
@@ -493,24 +497,37 @@ body{
     text-transform: uppercase; 
     border-style: none;
 }
-.search{
+.catalog{
     padding-right: 70px;
     padding-left:70px;
 }
 .sorting-container{
-    display: flex;  
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
 }
 .search-result{
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
+    margin-top: 82px;
+    margin-bottom: 72px;
 }
 .select-control{
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
     color: #333333;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right:131px;
+}
+.button-cards-container{
+    display: flex;
+    justify-content: end;
+    align-items: center; 
 }
 .button-cards{
     padding: 17px 16px;
@@ -527,10 +544,10 @@ body{
     list-style: none;
     min-width: 340px;
     min-height: 438px;
-    padding: 20px;;
+    padding: 0px;
     margin: 0; 
     box-sizing: border-box;
-    border-style: 1px solid #e6e6e6;
+    border-style: 1px solid #562828;
 }
 .product-link{
     color: black;
@@ -591,6 +608,7 @@ body{
     align-items: center;
     color:black;
     background-color: #ffffff;
+    margin-top: 96px;
     padding-bottom: 104px;
 }
 .newsletter-title-inner{
@@ -619,7 +637,15 @@ body{
     width: 60px;
     height: 60px;
     color: black;
-    background:#F2F2F2;   
+    background:#F2F2F2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-link-first-page{
+    color: black;
+    background:#F2F2F2;
+    text-decoration: none;
 }
 .pagination-item{
     width: 60px;
