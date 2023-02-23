@@ -21,7 +21,7 @@ body{
     flex-direction: column;
     font-family: "PT Sans", sans-serif;
     font-size: 24px;
-    line-height: 28px; 
+    line-height: 28px;
     font-style: normal;
     color: black;
     background: #F2F2F2;
@@ -33,9 +33,9 @@ body{
 }
 .page-header{
     color: black;
-    background-color: white; 
+    background-color: white;
     padding-left: 70px;
-    padding-right: 70px;  
+    padding-right: 70px;
 }
 .main-image{
     display: block;
@@ -55,7 +55,7 @@ body{
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    list-style: none; 
+    list-style: none;
     width:calc(100%-450px);
 }
 .navigation-link{
@@ -70,7 +70,7 @@ body{
     text-decoration: none;
 }
 .navigation-user{
-    min-width: 310px;  
+    min-width: 310px;
     margin-left: auto;
 }
 .navigation-button{
@@ -101,7 +101,7 @@ body{
 .main-index{
     font-family: "PT Sans";
     color: black;
-    background-color: white;  
+    background-color: white;
 }
 .main-container{
     flex-grow: 1;
@@ -123,16 +123,16 @@ body{
     line-height: 36px;
     text-transform: uppercase;
     text-align: center;
-}  
+}
 .welcome-text{
     margin-top: 25px;
     margin-bottom: 69px;
     font-family: "PT Sans";
-    font-size: 22px; 
+    font-size: 22px;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    color:#333333 
+    color:#333333
     outline: 2px solid #f005;
     outline-offset: -2px;
 }
@@ -141,7 +141,7 @@ body{
     justify-content: start;
     align-items: center;
     flex-wrap: wrap;
-    list-style: none; 
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -155,19 +155,19 @@ body{
 .advantages-item-turists{
     width: 400px;
     min-height: 385px;
-    background: rgba(131, 179,211,0.12); 
+    background: rgba(131, 179,211,0.12);
 }
 .advantages-item-road{
     width: 400px;
     min-height: 385px;
-    background: rgba(131, 179,211,0.2); 
+    background: rgba(131, 179,211,0.2);
 }
 .advantages-item-reverse{
     display: flex;
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
 }
 .advantages-item-container{
-    width: 400px;  
+    width: 400px;
 }
 .advantages-title-city,
 .advantages-title-bridge{
@@ -175,7 +175,7 @@ body{
     font-weight: 700;
     line-height: 28px;
     text-align:center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     background-color: #82B3D3;
     color:#ffffff;
 }
@@ -192,7 +192,7 @@ body{
     font-weight: 700;
     line-height: 28px;
     text-align: center;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 .advantages-description-city,
 .advantages-description-bridge{
@@ -202,8 +202,8 @@ body{
     font-weight: 400;
     line-height: 21px;
     background-color: #82B3D3;
-    color:#ffffff; 
-    text-align:center;  
+    color:#ffffff;
+    text-align:center;
 }
 .advantages-description-square,
 .advantages-description-turists{
@@ -220,7 +220,7 @@ body{
     width: 300px;
     font-size: 18px;
     font-weight: 400;
-    line-height: 21px;  
+    line-height: 21px;
     color: #333333;
     text-align: center;
 }
@@ -232,17 +232,17 @@ body{
     font-weight: 700;
     line-height: 36px;
     text-align: center;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 .slogan-features{
     margin-top: 20px;
     margin-bottom: 64px;
     font-family: "PT Sans";
-    font-size: 22px; 
+    font-size: 22px;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    color:#333333   
+    color:#333333
 }
 .features-list{
     display: flex;
@@ -263,7 +263,7 @@ body{
 .features-list-gifts{
     width: 400px;
     height: 385px;
-    background: rgba(131, 179,211,0.12); 
+    background: rgba(131, 179,211,0.12);
 }
 .features-item-container{
     width: 230px;
@@ -273,10 +273,10 @@ body{
 }
 .features-title{
     font-size: 24px;
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 28px;
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 .features-description{
     margin: 0;
@@ -315,7 +315,7 @@ body{
     font-weight: 700;
     line-height: 36px;
     background: #756157;
-    color:#ffffff; 
+    color:#ffffff;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -337,7 +337,7 @@ body{
     line-height: 36px;
     text-align: center;
     color:#ffffff;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 .newsletter-description{
     font-size:  22px;
@@ -353,7 +353,7 @@ body{
     line-height: 36px;
     color: #ffffff;
     background: #82B3D3;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     border-style: none;
 }
 .newsletter-form{
@@ -366,12 +366,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;  
+    background: white;
 }
 .social-list{
     display: flex;
     flex-wrap: wrap;
-    list-style: none;  
+    list-style: none;
 }
 .social-list-item{
     width: 47px;
@@ -379,7 +379,7 @@ body{
 }
 .phone{
     color: black;
-    text-decoration: none; 
+    text-decoration: none;
     text-align: center;
 }
 .logo{
@@ -403,7 +403,7 @@ body{
 .wrapper{
     background: url(../images/main/moutains-main-inner.jpg);
     background-repeat: no-repeat;
-    background-size:cover;  
+    background-size:cover;
 }
 .inner-header{
     padding-right: 70px;
@@ -414,12 +414,12 @@ body{
     font-weight: 700;
     line-height:78px;
     color:#ffffff;
-    margin-top:0; 
+    margin-top:0;
     margin-bottom: 11px;
     padding-top: 35px;
 }
 .breadcrumbs{
-    display: flex; 
+    display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -438,12 +438,12 @@ body{
 .catalog-apartments{
     padding-right: 70px;
     padding-left:70px;
-    
-    
+
+
 }
 .catalog-filter{
     display: flex;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
 }
 .catalog-filter-additionals{
     border-style: none;
@@ -468,7 +468,7 @@ body{
     padding: 0;
 }
 .catalog-filter-price-rage{
-    border-style: none; 
+    border-style: none;
     width: 288px;
 }
 .catalog-filter-title{
@@ -493,7 +493,7 @@ body{
     color: #ffffff;
     background: #82B3D3;
     text-transform: uppercase;
-    border-style: none; 
+    border-style: none;
 }
 .button-reset{
     margin-top: 32px;
@@ -503,7 +503,7 @@ body{
     line-height: 20px;
     color: #ffffff;
     background: rgba(0, 0, 0, 0);
-    text-transform: uppercase; 
+    text-transform: uppercase;
     border-style: none;
 }
 .catalog{
@@ -511,8 +511,8 @@ body{
     padding-left:70px;
 }
 .sorting-container{
-    display: flex; 
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .search-result{
@@ -536,7 +536,7 @@ body{
 .button-cards-container{
     display: flex;
     justify-content: end;
-    align-items: center; 
+    align-items: center;
 }
 .button-cards{
     padding: 17px 16px;
@@ -547,20 +547,20 @@ body{
     flex-wrap: wrap;
     padding:0;
     margin: 0;
-    width: 100%; 
+    width: 100%;
 }
 .product-item{
     list-style: none;
     min-width: 340px;
     min-height: 438px;
     padding: 0px;
-    margin: 0; 
+    margin: 0;
     box-sizing: border-box;
     border-style: 1px solid #562828;
 }
 .product-link{
     color: black;
-    text-decoration: none; 
+    text-decoration: none;
 }
 .product-title{
     font-size: 24px;
@@ -579,7 +579,7 @@ body{
     color: #ffffff;
     background-color: #756157;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     width: 140px;
 }
 .button-link-favorites{
@@ -597,9 +597,9 @@ body{
     font-weight: 700;
     line-height: 20px;
     color: #ffffff;
-    background: #7DB54F; 
+    background: #7DB54F;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     width: 140px;
 }
 .rating{
@@ -633,7 +633,7 @@ body{
     font-size:  22px;
     font-weight: 400;
     line-height: 26px;
-    text-align: center;  
+    text-align: center;
 }
 .pagination{
     list-style: none;
@@ -646,7 +646,7 @@ body{
     width: 60px;
     height: 60px;
     color: black;
-    background:#F2F2F2; 
+    background:#F2F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -659,12 +659,12 @@ body{
 .pagination-item{
     width: 60px;
     height: 60px;
-    color: #ffffff; 
+    color: #ffffff;
     background: #82B3D3;
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 }
 .pagination-link{
     font-size: 20px;
@@ -674,6 +674,3 @@ body{
     background: #82B3D3;
     text-decoration: none;
 }
-
-
-    
