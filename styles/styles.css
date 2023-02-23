@@ -414,19 +414,20 @@ body{
     font-weight: 700;
     line-height:78px;
     color:#ffffff;
-    padding-top: 35px; 
-}
-.breadcrumbs-container{
-     display: flex; 
+    margin-top:0; 
+    margin-bottom: 11px;
+    padding-top: 35px;
 }
 .breadcrumbs{
+    display: flex; 
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .breadcrumbs-item{
-    margin: 0;
-    padding: 0;
+    margin-right: 10px;
+    margin-bottom: 43px;
+    padding: 2px 0px;
 }
 .breadcrumbs-link{
     font-size: 16px;
@@ -436,7 +437,9 @@ body{
 }
 .catalog-apartments{
     padding-right: 70px;
-    padding-left:70px; 
+    padding-left:70px;
+    
+    
 }
 .catalog-filter{
     display: flex;
@@ -449,7 +452,7 @@ body{
 }
 .catalog-filter-list{
     list-style: none;
-    margin:0;
+    margin: 0;
     padding:0;
 }
 .catalog-filter-item{
@@ -457,6 +460,7 @@ body{
     font-weight: 400;
     line-height: 23px;
     color: #ffffff;
+    margin-bottom: 16px;
 }
 .catalog-filter-housing{
     border-style: none;
@@ -472,9 +476,14 @@ body{
     font-weight: 700;
     color: #ffffff;
     line-height: 24px;
+    margin-bottom: 32px;
+}
+.control-input{
+    margin-top: 36px;
 }
 .filter-buttons{
     width: 191px;
+
 }
 .button-accept{
     padding: 8px 50px;
