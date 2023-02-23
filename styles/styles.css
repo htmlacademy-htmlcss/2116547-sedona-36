@@ -438,8 +438,7 @@ body{
 .catalog-apartments{
     padding-right: 70px;
     padding-left:70px;
-
-
+    padding-bottom: 70px;
 }
 .catalog-filter{
     display: flex;
@@ -462,6 +461,7 @@ body{
     color: #ffffff;
     margin-bottom: 16px;
 }
+
 .catalog-filter-housing{
     border-style: none;
     margin-right: 140px;
@@ -470,6 +470,7 @@ body{
 .catalog-filter-price-rage{
     border-style: none;
     width: 288px;
+    padding: 0;
 }
 .catalog-filter-title{
     font-size: 20px;
@@ -483,9 +484,11 @@ body{
 }
 .filter-buttons{
     width: 191px;
-
+    margin: 0;
+    padding: 0;
 }
 .button-accept{
+    margin-top: 56px;
     padding: 8px 50px;
     font-size: 16px;
     font-weight: 700;
