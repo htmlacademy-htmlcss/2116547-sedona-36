@@ -522,7 +522,7 @@ body{
 }
 .sorting-container{
   display: flex;
-  align-items: center;
+  
 }
 .search-result{
     font-size: 30px;
