@@ -418,7 +418,7 @@ body{
     margin-bottom: 11px;
     padding-top: 35px;
 }
-.breadcrumbs{
+.breadcrumbs-list{
     display: flex;
     list-style: none;
     margin: 0;
@@ -471,6 +471,7 @@ body{
     border-style: none;
     width: 288px;
     padding: 0;
+    margin-right: 70px;
 }
 .catalog-filter-title{
     font-size: 20px;
@@ -484,12 +485,13 @@ body{
 }
 .filter-buttons{
     width: 191px;
-    margin: 0;
-    padding: 0;
 }
 .button-accept{
+    width: 191px;
+    margin:0 auto;
     margin-top: 56px;
-    padding: 8px 50px;
+    padding: 8px 0;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -497,10 +499,14 @@ body{
     background: #82B3D3;
     text-transform: uppercase;
     border-style: none;
+    cursor: pointer;
 }
 .button-reset{
+    width: 191px;
+    margin:0 auto;
     margin-top: 32px;
-    padding: 8px 50px;
+    padding: 8px 0;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -508,15 +514,15 @@ body{
     background: rgba(0, 0, 0, 0);
     text-transform: uppercase;
     border-style: none;
+    cursor: pointer;
 }
 .catalog{
     padding-right: 70px;
     padding-left:70px;
 }
 .sorting-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  
 }
 .search-result{
     font-size: 30px;
@@ -527,14 +533,16 @@ body{
     margin-bottom: 72px;
 }
 .select-control{
+    width: 141px;
+    margin: 0 auto;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
     color: #333333;
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 20px;
-    padding-right:131px;
+
+
 }
 .button-cards-container{
     display: flex;
@@ -545,9 +553,10 @@ body{
     padding: 17px 16px;
     color: black;
 }
-.product-card{
-    display: flex;
-    flex-wrap: wrap;
+.product-card-list{
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    gap: 20px;
     padding:0;
     margin: 0;
     width: 100%;
@@ -556,10 +565,15 @@ body{
     list-style: none;
     min-width: 340px;
     min-height: 438px;
-    padding: 0px;
+    padding: 20px;
     margin: 0;
     box-sizing: border-box;
-    border-style: 1px solid #562828;
+    border: 1px solid #e6e6e6;
+}
+.product-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+    gap: 20px;
 }
 .product-link{
     color: black;
@@ -583,7 +597,8 @@ body{
     background-color: #756157;
     text-decoration: none;
     text-transform: uppercase;
-    width: 140px;
+    padding: 8px 26px;
+
 }
 .button-link-favorites{
     font-size: 16px;
@@ -593,7 +608,7 @@ body{
     background: #82B3D3;
     text-decoration: none;
     text-transform: uppercase;
-    width: 140px;
+    padding: 8px 20px;
 }
 .button-link-favorites-chosen{
     font-size: 16px;
@@ -603,7 +618,7 @@ body{
     background: #7DB54F;
     text-decoration: none;
     text-transform: uppercase;
-    width: 140px;
+    padding: 8px 20px;
 }
 .rating{
     font-size: 16px;
@@ -611,7 +626,8 @@ body{
     line-height: 20px;
     color: #333333;
     background: #F2F2F2;
-    width: 140px;
+    padding: 8px 23px
+
 }
 .newsletter-catalog{
     display: flex;
@@ -638,12 +654,12 @@ body{
     line-height: 26px;
     text-align: center;
 }
-.pagination{
-    list-style: none;
+.pagination-list{
     display: flex;
-    gap:8px;
+    gap: 8px;
+    list-style: none;
     padding: 0;
-    margin: 0;
+    margin-top: 80px;
 }
 .pagination-item-first-page{
     width: 60px;
