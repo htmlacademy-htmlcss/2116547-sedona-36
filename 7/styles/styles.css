@@ -521,8 +521,8 @@ body{
     padding-left:70px;
 }
 .sorting-container{
-  display: flex;
-  
+   display: flex;
+   align-items: center;
 }
 .search-result{
     font-size: 30px;
@@ -533,16 +533,15 @@ body{
     margin-bottom: 72px;
 }
 .select-control{
-    width: 141px;
-    margin: 0 auto;
+    width: 292px;
+    margin-left: auto;
+    margin-right: 240px;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
     color: #333333;
     padding-top: 14px;
     padding-bottom: 14px;
-
-
 }
 .button-cards-container{
     display: flex;
@@ -583,11 +582,13 @@ body{
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
+    margin-bottom:0;
 }
 .product-price{
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
+
 }
 .button-link-detailed{
     font-size: 16px;
@@ -598,7 +599,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     padding: 8px 26px;
-
+    margin-top: 16px;
 }
 .button-link-favorites{
     font-size: 16px;
@@ -609,6 +610,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     padding: 8px 20px;
+    margin-top: 16px;
 }
 .button-link-favorites-chosen{
     font-size: 16px;
@@ -619,6 +621,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     padding: 8px 20px;
+    margin-top: 16px;
 }
 .rating{
     font-size: 16px;
@@ -627,7 +630,6 @@ body{
     color: #333333;
     background: #F2F2F2;
     padding: 8px 23px
-
 }
 .newsletter-catalog{
     display: flex;
