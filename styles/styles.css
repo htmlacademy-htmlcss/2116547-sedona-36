@@ -499,6 +499,7 @@ body{
     background: #82B3D3;
     text-transform: uppercase;
     border-style: none;
+    cursor: pointer;
 }
 .button-reset{
     width: 191px;
@@ -513,15 +514,15 @@ body{
     background: rgba(0, 0, 0, 0);
     text-transform: uppercase;
     border-style: none;
+    cursor: pointer;
 }
 .catalog{
     padding-right: 70px;
     padding-left:70px;
 }
 .sorting-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .search-result{
     font-size: 30px;
@@ -532,14 +533,16 @@ body{
     margin-bottom: 72px;
 }
 .select-control{
+    width: 141px;
+    margin: 0 auto;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
     color: #333333;
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left: 20px;
-    padding-right:131px;
+
+
 }
 .button-cards-container{
     display: flex;
