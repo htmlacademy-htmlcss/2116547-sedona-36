@@ -521,8 +521,8 @@ body{
     padding-left:70px;
 }
 .sorting-container{
-  display: flex;
-  
+   display: flex;
+   align-items: center;
 }
 .search-result{
     font-size: 30px;
@@ -534,7 +534,7 @@ body{
 }
 .select-control{
     width: 141px;
-    margin: 0 auto;
+    margin-left: auto;
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
