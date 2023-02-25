@@ -30,16 +30,13 @@ body{
 .page-container{
     width: 1200px;
     margin: 0 auto;
+
 }
 .page-header{
     color: black;
     background-color: white;
     padding-left: 70px;
     padding-right: 70px;
-}
-.main-image{
-    display: block;
-    margin: 0 auto;
 }
 .navigation{
     display: flex;
@@ -48,6 +45,7 @@ body{
 .logo-link{
     display: block;
     margin-right: 28px;
+    margin-bottom: -10px;
 }
 .navigation-list{
     display: flex;
@@ -110,9 +108,23 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
+
 .hero{
     background: url(../images/main/index-background.jpg);
     background-repeat: no-repeat;
+}
+.main-image{
+  display:block;
+  margin:0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
+}
+.decoration-image{
+  position: relative;
+  top: 428px;
+  background: url(../images/main/divider.svg);
+  background-repeat: no-repeat;
+
 }
 .slogan-advantages{
     margin: 0 auto;
@@ -132,9 +144,7 @@ body{
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    color:#333333
-    outline: 2px solid #f005;
-    outline-offset: -2px;
+    color:#333333;
 }
 .advantages-list{
     display: flex;
@@ -461,7 +471,6 @@ body{
     color: #ffffff;
     margin-bottom: 16px;
 }
-
 .catalog-filter-housing{
     border-style: none;
     margin-right: 140px;
