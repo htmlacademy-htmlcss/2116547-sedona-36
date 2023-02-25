@@ -110,10 +110,8 @@ body{
 }
 
 .hero{
-    background: url(../images/main/index-background.jpg), background-repeat: no-repeat;
-    background: url(../images/main/divider.svg); background-repeat: no-repeat; 
-
-
+    background:url(../images/main/divider.svg) bottom -1px center no-repeat,
+    url(../images/main/index-background.jpg) no-repeat;
 }
 .main-image{
   display:block;
