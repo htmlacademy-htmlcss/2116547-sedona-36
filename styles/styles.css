@@ -110,8 +110,10 @@ body{
 }
 
 .hero{
-    background: url(../images/main/index-background.jpg);
-    background-repeat: no-repeat;
+    background: url(../images/main/index-background.jpg), background-repeat: no-repeat;
+    background: url(../images/main/divider.svg); background-repeat: no-repeat; 
+
+
 }
 .main-image{
   display:block;
@@ -119,13 +121,7 @@ body{
   padding-top: 51px;
   padding-bottom: 82px;
 }
-.decoration-image{
-  position: relative;
-  top: 428px;
-  background: url(../images/main/divider.svg);
-  background-repeat: no-repeat;
 
-}
 .slogan-advantages{
     margin: 0 auto;
     width: 600px;
