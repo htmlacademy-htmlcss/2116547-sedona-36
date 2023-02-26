@@ -140,10 +140,10 @@ body{
     url(../images/main/index-background.jpg) no-repeat;
 }
 .main-image{
-  display:block;
-  margin:0 auto;
-  padding-top: 51px;
-  padding-bottom: 82px;
+    display:block;
+    margin:0 auto;
+    padding-top: 51px;
+    padding-bottom: 82px;
 }
 .slogan-advantages{
     margin: 0 auto;
