@@ -81,7 +81,7 @@ body{
      background-color:#756157;
 }
 .navigation-link:focus{
-     box-shadow: inset 0 0 0 4px #82B3D3;
+     box-shadow: inset 0 0 0 2px #82B3D3;
      outline-offset: none;
 }
 .navigation-user{
@@ -229,6 +229,7 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+
 .advantages-description-city,
 .advantages-description-bridge{
     margin: 0 auto;
@@ -321,7 +322,7 @@ body{
     text-align: center;
     text-transform: none;
 }
-.search{
+.hotel-search{
     display: flex;
     flex-direction: column;
     justify-content:baseline;
@@ -405,20 +406,19 @@ body{
   background: #68A2CA;
 
 }
-.newsletter-button:focus{
-  background: #68A2CA;
-
-}
 .newsletter-button:active{
   background: #82B3D3;
-
 }
 .newsletter-button:disabled{
   background: #E5E5E5;
-
 }
 .newsletter-form{
     display: flex;
+}
+input:placeholder-shown{
+  background-color:#F2F2F2;
+  border: 2px solid#82B3D3;
+  border-radius: 4px;
 }
 .field{
     width: 452px;
@@ -438,39 +438,39 @@ body{
     width: 47px;
     height: 40px;
 }
-.social-list-item:hover{
-  background: #68A2CA;
+.footer-social-link{
+    color: #83B3D3;
+    width: 47px;
+    height: 40px;
 }
-.social-list-item:active{
-  background: #68A2CA4D;
+.footer-social-link:hover path{
+    fill: #68A2CA;
+}
+.footer-social-link:active path{
+    fill: #68A2CA4D;
 }
 .phone{
     color: black;
     text-decoration: none;
     text-align: center;
 }
-.phone:hover{
-  background: #756157;
 
+.href:focus{
+  color: #756157;
 }
-.phone:focus{
-  background: #756157;
-}
-.phone:active{
-  background: #7561574D;
+.href:active{
+  color: #7561574D;
 }
 .logo{
     display: block;
     margin-right: 70px;
+
 }
 .logo:hover{
-  background: #7561574D;
-
-
+ fill: #7561574D;
 }
 .logo:active{
-  background: #7561574D;
-
+  fill: #7561574D;
 }
 
 
