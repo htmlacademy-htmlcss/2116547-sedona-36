@@ -438,15 +438,14 @@ input:placeholder-shown{
     width: 47px;
     height: 40px;
 }
-.footer-social-link{
+.social-link{
     color: #83B3D3;
-    width: 47px;
-    height: 40px;
+
 }
-.footer-social-link:hover path{
+.social-link:hover path{
     fill: #68A2CA;
 }
-.footer-social-link:active path{
+.social-link:active path{
     fill: #68A2CA4D;
 }
 .phone{
@@ -455,10 +454,10 @@ input:placeholder-shown{
     text-align: center;
 }
 
-.href:focus{
+.phone:focus{
   color: #756157;
 }
-.href:active{
+.phone:active{
   color: #7561574D;
 }
 .logo{
@@ -586,6 +585,12 @@ input:placeholder-shown{
     border-style: none;
     cursor: pointer;
 }
+.button-accept:hover{
+  background: #68A2CA
+}
+.button-accept:active{
+  background: #82B3D3;
+}
 .button-reset{
     width: 191px;
     margin:0 auto;
@@ -600,6 +605,12 @@ input:placeholder-shown{
     text-transform: uppercase;
     border-style: none;
     cursor: pointer;
+}
+.button-reset:hover{
+  background: #FFFFFF;
+}
+.button-reset:active{
+  background: #FFFFFF4D;
 }
 .catalog{
     padding-right: 70px;
@@ -686,6 +697,12 @@ input:placeholder-shown{
     padding: 8px 26px;
     margin-top: 16px;
 }
+.button-link-detailed:hover{
+  background: #615048;
+}
+.button-link-detailed:active{
+  background: #756157;
+}
 .button-link-favorites{
     font-size: 16px;
     font-weight: 700;
@@ -697,6 +714,12 @@ input:placeholder-shown{
     padding: 8px 20px;
     margin-top: 16px;
 }
+.button-link-favorites:hover{
+  background: #68A2CA
+}
+.button-link-favorites:active{
+  background: #82B3D3;
+}
 .button-link-favorites-chosen{
     font-size: 16px;
     font-weight: 700;
@@ -707,6 +730,12 @@ input:placeholder-shown{
     text-transform: uppercase;
     padding: 8px 20px;
     margin-top: 16px;
+}
+.button-link-favorites-chosen:hover{
+    background: #6C9E42;
+}
+.button-link-favorites-chosen:active{
+    background: #7DB54F;
 }
 .rating{
     font-size: 16px;
