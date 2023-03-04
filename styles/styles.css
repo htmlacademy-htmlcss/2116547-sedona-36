@@ -231,7 +231,16 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
-.advantages-title-city,
+.advantages-title-city::after{
+  display: block;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background:rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .advantages-title-bridge::after{
   display: block;
   width: 60px;
@@ -242,7 +251,16 @@ body{
   margin-right: auto;
   margin-left: auto;
 }
-.advantages-title-square,
+.advantages-title-square::after{
+  display: block;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .advantages-title-turists::after{
   display: block;
   width: 60px;
