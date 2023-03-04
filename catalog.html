@@ -42,8 +42,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-button" href="#">
-              <span>Хочу сюда
-              </span>
+              <span>Хочу сюда</span>
             </a>
           </li>
         </ul>
@@ -53,7 +52,7 @@
     <div class="wrapper">
         <header class="inner-header">
            <h1 class="inner-header-tittle">Гостиницы Седоны</h1>
-            <ul class="breadcrumbs-list">
+            <ol class="breadcrumbs-list">
               <li class="breadcrumbs-item">
                 <img src="images/main/breadcrumbs-1.svg" width="13" height="15" alt="Иконка главной страницы.">
                 <a class="visually-hidden" href="index.html">Главная</a>
@@ -65,7 +64,7 @@
              <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link">Гостиницы</a>
              </li>
-            </ul>
+            </ol>
          </header>
       <section class="catalog-apartments">
         <h2 class="visually-hidden">Список гостиниц</h2>
@@ -118,9 +117,26 @@
         </fieldset>
         <fieldset class="catalog-filter-price-rage">
           <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-          <input class="control-input-min" type="number" name="min-price" value="0" placeholder="от">
-          <input class="control-input-max" type="number" name="max-price" value="9000" placeholder="до">
-          <input class="control-input" type="range" name="price-range">
+          <div class="rage-container">
+            <label class="rage-from-field-text">
+              <input class="control-input-min" type="number"  value="0" placeholder="">
+              <span>от</span>
+            </label>
+            <label class="rage-to-field-text">
+              <input class="control-input-max" type="number"  value="9000" placeholder="">
+              <span>до</span>
+            </label>
+          </div>
+          <div class="rage-scale">
+            <div class="rage-bar" style="right:61px;" width="226px">
+              <button class="rage-toggle toggle-min">
+                <span class="visually-hidden">Изменить минимальную цену</span>
+              </button>
+              <button class="rage-toggle toggle-max">
+                <span class="visually-hidden">Изменить максимальную цену</span>
+              </button>
+            </div>
+          </div>
         </fieldset>
         <div class="filter-buttons">
         <button class="button-accept" type="submit">Применить</button>
@@ -222,7 +238,7 @@
             </div>
           </li>
         </ul>
-        <ul class="pagination-list">
+        <ol class="pagination-list">
           <li class="pagination-item-first-page">
             <a class="pagination-link-first-page" href="#">
               1
@@ -254,7 +270,7 @@
               10
             </a>
           </li>
-        </ul>
+        </оl>
       </section>
       <section class="newsletter-catalog">
         <h2 class="newsletter-title-inner">подпишись на рассылку</h2>
