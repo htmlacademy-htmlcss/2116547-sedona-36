@@ -629,27 +629,24 @@ input:placeholder-shown{
     align-items: start;
     gap: 2px;
     margin: 0;
-
 }
-.range-container span{
-    position: absolute;
-    content:"от";
-    top: 50%;
-    right: 20px;
-    transform: translateY;
-    width: 20px;
-    height:24px;
-    font-family: inherit;
-    font-size: 18px;
-    line-height: 24px;
-    background-color: rgba(170,170,170);
-}
-.range-container span{
+.range-from-field-text span{
   position: absolute;
-  content:"до";
-  top: 50%;
+  top: 10px;
   right: 20px;
-  transform: translateY;
+  transform: translateY(70%);
+  width: 20px;
+  height:24px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: rgba(170,170,170);
+}
+.range-to-field-text span{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  transform: translateY(70%);
   width: 20px;
   height:24px;
   font-family: inherit;
@@ -671,6 +668,10 @@ input:placeholder-shown{
 .control-input-min:hover{
     background: #E6E6E6;
 }
+.control-input-min:active{
+    background: #d4d1d1;
+}
+
 .control-input-min:placeholder-shown{
     background-color:#F2F2F2;
     border: 2px solid#000000;
@@ -689,6 +690,9 @@ input:placeholder-shown{
 }
 .control-input-max:hover{
     background: #E6E6E6;
+}
+.control-input-max:active{
+    background: #d4d1d1;
 }
 .control-input-max:placeholder-shown{
     background-color:#F2F2F2;
@@ -800,7 +804,6 @@ background: #d4d1d1;
 .button-reset:focus{
   color:#FFFFFF ;
   border: 3px solid #83B3D3;
-
 }
 .catalog{
     padding-right: 70px;
