@@ -607,25 +607,31 @@ input:placeholder-shown{
     color: #ffffff;
     margin-bottom: 16px;
 }
+.catalog-filter-item:hover{
+  opacity: 0.6;
+}
+.catalog-filter-item:active{
+  opacity: 0.3;
+}
 .catalog-filter-housing{
     border-style: none;
     margin-right: 140px;
     padding: 0;
 }
-.catalog-filter-price-rage{
+.catalog-filter-price-range{
     border-style: none;
     width: 288px;
     padding: 0;
     margin-right: 70px;
 }
-.rage-container{
+.range-container{
     display: flex;
     align-items: start;
     gap: 2px;
     margin: 0;
 
 }
-.rage-container span{
+.range-container span{
     position: absolute;
     content:"от";
     top: 50%;
@@ -638,7 +644,7 @@ input:placeholder-shown{
     line-height: 24px;
     background-color: rgba(170,170,170);
 }
-.rage-container span{
+.range-container span{
   position: absolute;
   content:"до";
   top: 50%;
@@ -693,14 +699,14 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
-.rage-scale{
+.range-scale{
   position: relative;
   height: 4px;
   background-color: #FFFFFF;
-  margin-top: 32px;
+  margin-top: 36px;
   border-radius: 5px;
 }
-.rage-toggle toggle-min{
+.range-toggle{
   position: absolute;
   width: 20px;
   height: 20px;
@@ -708,7 +714,7 @@ input::-webkit-inner-spin-button {
   border-radius: 5px;
   cursor: pointer;
 }
-.rage-toggle toggle-max{
+.range-toggle{
   position: absolute;
   width: 20px;
   height: 20px;
@@ -716,11 +722,23 @@ input::-webkit-inner-spin-button {
   border-radius: 5px;
   cursor: pointer;
 }
-.rage-toggle:hover{
+.range-toggle:hover{
   background: #E6E6E6;
 }
-.rage-toggle:active{
-
+.range-toggle:active{
+background: #d4d1d1;
+}
+.toggle-min{
+    position: absolute;
+    top: -9px;
+    left: 0.5px;
+    border: none;
+}
+.toggle-max{
+    position: absolute;
+    top: -9px;
+    right: 61px;
+    border: none;
 }
 .catalog-filter-title{
     font-size: 20px;
