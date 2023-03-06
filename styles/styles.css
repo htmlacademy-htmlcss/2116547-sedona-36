@@ -630,21 +630,9 @@ input:placeholder-shown{
     gap: 2px;
     margin: 0;
 }
-.range-from-field-text span{
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  transform: translateY(70%);
-  width: 20px;
-  height:24px;
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 24px;
-  background-color: rgba(170,170,170);
-}
-.range-to-field-text span{
-  position: absolute;
-  top: 50%;
+.range-field-text{
+  position: relative;
+  top: 50px;
   right: 20px;
   transform: translateY(50%);
   width: 20px;
@@ -654,6 +642,12 @@ input:placeholder-shown{
   line-height: 24px;
   background-color: rgba(170,170,170);
 }
+.field-text{
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+
 .control-input-min{
     width: 143px;
     margin: 0;
