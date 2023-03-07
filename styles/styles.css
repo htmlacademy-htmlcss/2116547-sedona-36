@@ -45,7 +45,7 @@ body{
 .logo-link{
     display: block;
     margin-right: 28px;
-    margin-bottom: -10px;
+    margin-bottom: -6px;
 }
 .navigation-list{
     display: flex;
@@ -60,6 +60,7 @@ body{
     position: relative;
     display: block;
     padding: 20px 16px;
+    margin: 0;
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -164,7 +165,6 @@ body{
     width: 1200px;
     margin: 0 auto;
 }
-
 .hero{
     background:url(../images/main/divider.svg) bottom -1px center no-repeat,
     url(../images/main/index-background.jpg) no-repeat;
@@ -247,7 +247,6 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
-
 .advantages-title-road{
     font-size: 24px;
     font-weight: 700;
@@ -479,6 +478,7 @@ body{
     text-transform: uppercase;
     border-style: none;
     border-radius: 0 4px 4px 0;
+    cursor: pointer;
 }
 .newsletter-button:hover{
   background: #68A2CA;
@@ -528,7 +528,6 @@ input:placeholder-shown{
 }
 .phone{
     margin-top: 45px;
-    margin-bottom: 35px;
     font-size: 40px;
     font-weight: 400;
     line-height: 40px;
@@ -548,6 +547,7 @@ input:placeholder-shown{
     margin-top: 48px;
     margin-bottom: 38px;
     margin-right: 70px;
+    cursor: pointer;
 }
 .logo:hover{
  fill: #7561574D;
@@ -596,7 +596,14 @@ input:placeholder-shown{
 .breadcrumbs-item{
     margin-right: 10px;
     margin-bottom: 43px;
-    padding: 2px 0px;
+    padding: 2px 0;
+    cursor: pointer;
+}
+.breadcrumbs-item:hover{
+  color:rgba(255,255,255,0.6);
+}
+.breadcrums-item:active{
+  color:rgba(255,255,255,0.3);
 }
 .breadcrumbs-link{
     font-size: 16px;
@@ -842,6 +849,7 @@ background: #d4d1d1;
     color: #333333;
     padding-top: 14px;
     padding-bottom: 14px;
+    cursor: pointer;
 }
 .button-cards-container{
     display: flex;
@@ -940,8 +948,6 @@ background: #d4d1d1;
   background: #82B3D3;
 }
 .button-link-favorites-chosen{
-    display: grid;
-    align-self: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -949,7 +955,7 @@ background: #d4d1d1;
     background: #7DB54F;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 8px 20px;
+    padding: 8px 18px;
     margin-top: 16px;
 }
 .button-link-favorites-chosen:hover{
