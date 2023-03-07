@@ -84,19 +84,36 @@ body{
 .navigation-link:hover{
      color:#68A2CA;
 }
-.navigation-link:focus{
-     box-shadow: inset 0 0 0 2px #82B3D3;
-     outline-offset: none;
-}
 .navigation-link:active{
      color: #8bb1ca;
 }
-
 .navigation-user{
      min-width: 310px;
      margin-left: auto;
 }
-.navigation-button{
+.navigation-user-link-search{
+     display:block;
+     padding: 22px 12px;
+     margin: 0;
+}
+.navigation-user-link-search:hover path{
+     fill:#b5a90a;
+}
+.navigation-user-link-search:active path{
+     fill:#efd90e;
+}
+.navigation-user-link-heart{
+    display:block;
+    padding: 22px 12px;
+    margin: 0;
+}
+.navigation-user-link-heart:hover path{
+     fill:rgb(186, 118, 132);
+}
+.navigation-user-link-heart:active path{
+     fill:crimson;
+}
+.navigation-user-button{
     display: block;
     margin-top: 14px;
     margin-left: 20px;
@@ -111,17 +128,17 @@ body{
     text-decoration: none;
     border-radius: 4px;
 }
-.navigation-button:hover{
+.navigation-user-button:hover{
   background: #756157;
 }
-.navigation-button:focus{
+.navigation-user-button:focus{
   background: #615048;
 }
-.navigation-button:active{
+.navigation-user-button:active{
   background: #756157;
   color: #FFFFFF4D;
 }
-.navigation-button:disabled{
+.navigation-user-button:disabled{
   background: #E5E5E5;
 }
 .visually-hidden{
@@ -491,6 +508,7 @@ input:placeholder-shown{
     background: white;
 }
 .social-list{
+    margin:0;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -510,7 +528,11 @@ input:placeholder-shown{
     fill: #68A2CA4D;
 }
 .phone{
-    width:720px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
     color: black;
     text-decoration: none;
     text-align: center;
@@ -524,8 +546,9 @@ input:placeholder-shown{
 }
 .logo{
     display: block;
+    margin-top: 48px;
+    margin-bottom: 38px;
     margin-right: 70px;
-
 }
 .logo:hover{
  fill: #7561574D;
@@ -694,6 +717,7 @@ input::-webkit-inner-spin-button {
 }
 .range-scale{
   position: relative;
+  Top: 72px;
   height: 4px;
   background-color: #FFFFFF;
   border-radius: 5px;
