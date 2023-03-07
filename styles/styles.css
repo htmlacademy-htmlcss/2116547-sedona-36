@@ -519,7 +519,6 @@ input:placeholder-shown{
 }
 .social-link{
     color: #83B3D3;
-
 }
 .social-link:hover path{
     fill: #68A2CA;
@@ -941,6 +940,8 @@ background: #d4d1d1;
   background: #82B3D3;
 }
 .button-link-favorites-chosen{
+    display: grid;
+    align-self: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
