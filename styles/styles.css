@@ -598,17 +598,24 @@ input:placeholder-shown{
     padding: 2px 0;
     cursor: pointer;
 }
-.breadcrumbs-item:hover{
-  color:rgba(255,255,255,0.6);
-}
-.breadcrums-item:active{
-  color:rgba(255,255,255,0.3);
-}
 .breadcrumbs-link{
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
     color: #ffffff;
+    text-decoration: none;
+}
+.breadcrumbs-link:hover path{
+  fill:rgba(255,255,255,0.6);
+}
+.breadcrumbs-link:active path{
+  fill:rgba(255,255,255,0.3);
+}
+.breadcrumbs-link:hover{
+  color: rgba(255,255,255,0.6);
+}
+.breadcrumbs-link:active{
+  color: rgba(255,255,255,0.3);
 }
 .catalog-apartments{
     padding-right: 70px;
