@@ -656,6 +656,22 @@ input:placeholder-shown{
 .catalog-filter-item:active{
   opacity: 0.3;
 }
+.control{
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+.control-mark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border:none;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
 .catalog-filter-housing{
     border-style: none;
     margin-right: 140px;
