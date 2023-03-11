@@ -699,14 +699,6 @@ input:placeholder-shown{
   background: #3f5e72;
   content: "";
 }
-.control-input[type="checkbox"]:checked +
-.control-mark::before {
-  transform: rotate(60deg);
-}
-.control-input[type="checkbox"]:checked +
-.control-mark::after {
-  transform: rotate(-45deg);
-}
 .catalog-filter-housing{
     border-style: none;
     margin-right: 140px;
@@ -738,12 +730,14 @@ input:placeholder-shown{
   font-size: 18px;
   line-height: 24px;
   background-color: rgba(0,0,0);
-  opacity: 0.3;
+
 }
 .field-text{
   position: absolute;
   top: 15px;
   right: 20px;
+  color: #000000;
+  opacity: 0.3;
 }
 .control-input-min{
     width: 143px;
@@ -756,7 +750,6 @@ input:placeholder-shown{
     background-color: #F2F2F2;
     border-radius: 4px 0 0 4px;
     box-sizing: border-box;
-
 }
 .control-input-min:hover{
     background: #E6E6E6;
@@ -780,7 +773,6 @@ input:placeholder-shown{
     background-color: #F2F2F2;
     border-radius: 4px 0 0 4px;
     box-sizing: border-box;
-
 }
 .control-input-max:hover{
     background: #E6E6E6;
@@ -799,7 +791,7 @@ input::-webkit-inner-spin-button {
 }
 .range-scale{
   position: relative;
-  Top: 72px;
+  Top: 48px;
   height: 4px;
   background-color: #FFFFFF;
   border-radius: 5px;
@@ -1139,16 +1131,28 @@ background: #d4d1d1;
   position: relative;
   margin: auto;
   padding: 70px;
+  width: 717px;
   border-radius: 30px;
   background-color: #ffffff;
 }
 .modal-hotel-search{
-    width: 717px
-    box-shadow: 0 25px 50px
-    rgba (0,0,0,0.15);
+    width: 577px;
+    display: flex;
 }
 .modal-close-button {
-
+  position: absolute;
+  padding: 19px 18px;
+  top: 64px;
+  right:70px;
+  width: 52px;
+  height: 52px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 100%;
+  background-image:url(../images/main/close-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 .modal-title{
   margin: 0;
@@ -1159,4 +1163,17 @@ background: #d4d1d1;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+}
+.search-date-form{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.arrival-date-field{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.modal-container-close{
+  display: none;
 }
