@@ -650,11 +650,8 @@ input:placeholder-shown{
     color: #ffffff;
     margin-bottom: 16px;
 }
-.catalog-filter-item:hover{
-  opacity: 0.6;
-}
-.catalog-filter-item:active{
-  opacity: 0.3;
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 16px;
 }
 .control{
   position: relative;
@@ -671,11 +668,57 @@ input:placeholder-shown{
   border-radius: 4px;
   background: #ffffff;
 }
-
+.control:hover{
+    opacity: 0.6;
+}
+.control-mark:hover{
+    opacity: 0.6;
+}
+.control:active{
+    opacity: 0.3;
+}
+.control-mark:active{
+  opacity: 0.3;
+}
+.control-input [type="checkbox"]:checked +
+.control-mark::before{
+  position:absolute;
+  top: 3px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  background: #3f5e72;
+}
+.control-input [type="checkbox"]:checked +
+.control-mark::after{
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  width: 12px;
+  height: 10px;
+  background: #3f5e72;
+  content: "";
+}
+.control-input[type="checkbox"]:checked +
+.control-mark::before {
+  transform: rotate(60deg);
+}
+.control-input[type="checkbox"]:checked +
+.control-mark::after {
+  transform: rotate(-45deg);
+}
 .catalog-filter-housing{
     border-style: none;
     margin-right: 140px;
     padding: 0;
+}
+.control-input[type="radio"] +
+.control-mark {
+  border-radius: 50%;
+}
+.control-label {
+  line-height: 23px;
+  font-weight: 400;
 }
 .catalog-filter-price-range{
     border-style: none;
@@ -691,11 +734,11 @@ input:placeholder-shown{
 }
 .range-field-text{
   position: relative;
-  transform: translateY(50%);
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
   background-color: rgba(0,0,0);
+  opacity: 0.3;
 }
 .field-text{
   position: absolute;
@@ -713,6 +756,7 @@ input:placeholder-shown{
     background-color: #F2F2F2;
     border-radius: 4px 0 0 4px;
     box-sizing: border-box;
+
 }
 .control-input-min:hover{
     background: #E6E6E6;
@@ -736,6 +780,7 @@ input:placeholder-shown{
     background-color: #F2F2F2;
     border-radius: 4px 0 0 4px;
     box-sizing: border-box;
+
 }
 .control-input-max:hover{
     background: #E6E6E6;
@@ -1080,4 +1125,38 @@ background: #d4d1d1;
 
 .pagination-link:active{
     background: #82B3D3;
+}
+.modal-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(255,255,255,0.6);
+}
+.modal{
+  position: relative;
+  margin: auto;
+  padding: 70px;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.modal-hotel-search{
+    width: 717px
+    box-shadow: 0 25px 50px
+    rgba (0,0,0,0.15);
+}
+.modal-close-button {
+
+}
+.modal-title{
+  margin: 0;
+  margin-bottom: 64px;
+  font-family: "PT Sans" sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
 }
