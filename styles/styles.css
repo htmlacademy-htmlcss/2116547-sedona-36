@@ -103,11 +103,32 @@ body{
 .navigation-user-link-search:active path{
      fill: #92b0c5;
 }
+.navigation-item{
+  position: relative;
+}
 .navigation-user-link-heart{
     display:block;
     padding: 22px 12px;
     margin: 0;
 }
+.navigation-user-link-heart::after{
+  position: absolute;
+  top:16px;
+  left: 20px;
+  content: "12";
+  font-weight:400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color:#7DB54F;
+  box-sizing:border-box;
+}
+
 .navigation-user-link-heart:hover path{
      fill:rgb(186, 118, 132);
 }
@@ -497,9 +518,11 @@ input:placeholder-shown{
   background-color:#F2F2F2;
   border: none;
   border-radius: 4px 0 0 4px;
+  padding-left: 20px;
 }
 input:not(:placeholder-shown) {
   background-color: #ffffff;
+  padding-left: 20px;
 }
 .field{
     width: 452px;
@@ -665,7 +688,6 @@ input:not(:placeholder-shown) {
 .catalog-filter-item:not(:last-child){
   margin-bottom: 16px;
 }
-
 .control-checkbox{
   position: relative;
   display: block;
@@ -681,6 +703,8 @@ input:not(:placeholder-shown) {
   content: "";
   top: 5px;
   left: 5px;
+  width: 12px;
+  height: 9px;
   background-image: url(../images/main/tick.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -1134,6 +1158,14 @@ background: #d4d1d1;
     text-decoration: none;
     border: 1px solid #F2F2F2;
     border-radius:  4px;
+}
+.pagination-item-pagination-next{
+    width: 60px;
+    height: 60px;
+    background:#ffffff
+}
+.pagination-link-pagination-next{
+  background: #ffffff;
 }
 .pagination-item{
     width: 60px;
