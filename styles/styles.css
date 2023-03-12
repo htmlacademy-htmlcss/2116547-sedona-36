@@ -601,7 +601,6 @@ input:not(:placeholder-shown) {
     margin-right: 10px;
     margin-bottom: 43px;
     padding: 2px 0;
-
 }
 .breadcrumbs-link{
     font-size: 16px;
@@ -663,20 +662,40 @@ input:not(:placeholder-shown) {
     color: #ffffff;
     margin-bottom: 16px;
 }
-.catalog-filter-item:not(:last-child) {
+.catalog-filter-item:not(:last-child){
   margin-bottom: 16px;
 }
+
 .control-checkbox{
   position: relative;
   display: block;
   padding-left: 36px;
+}
+.control-checkbox-checked{
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+.control-checkbox-checked::after{
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 5px;
+  background-image: url(../images/main/tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .control-radio{
   position: relative;
   display: block;
   padding-left: 36px;
 }
-.control-radio::after{
+.control-radio-checked{
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+.control-radio-checked::after{
   position: absolute;
   content: "";
   top: 5px;
@@ -797,7 +816,6 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
-
 .range-scale{
   position: relative;
   Top:48px;
