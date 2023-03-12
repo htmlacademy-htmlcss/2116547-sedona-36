@@ -539,6 +539,7 @@ input:not(:placeholder-shown) {
     color: black;
     text-decoration: none;
     text-align: center;
+    cursor: pointer;
 }
 
 .phone:hover{
@@ -560,8 +561,6 @@ input:not(:placeholder-shown) {
 .logo:active{
   fill: #7561574D;
 }
-
-
 
 /*catalog.html*/
 
@@ -667,10 +666,25 @@ input:not(:placeholder-shown) {
 .catalog-filter-item:not(:last-child) {
   margin-bottom: 16px;
 }
-.control{
+.control-checkbox{
   position: relative;
   display: block;
   padding-left: 36px;
+}
+.control-radio{
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+.control-radio::after{
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #3F5E72;
 }
 .control-mark-checkbox{
   position: absolute;
@@ -725,7 +739,6 @@ input:not(:placeholder-shown) {
   font-size: 18px;
   line-height: 24px;
   background-color: rgba(0,0,0);
-
 }
 .field-text{
   position: absolute;
@@ -784,18 +797,13 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
-.range{
-  position: relative;
-  Top: 48px;
-  height: 4px;
-  background-color: #0b0a0a;
-  border-radius: 5px;
-}
+
 .range-scale{
   position: relative;
-  Top:0;
+  Top:48px;
+  width: 287px;
   height: 4px;
-  background-color: #FFFFFF;
+  background: rgba(255,255,255,0.3);
   border-radius: 5px;
 }
 .range-bar{
