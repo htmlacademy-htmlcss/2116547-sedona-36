@@ -1277,11 +1277,35 @@ background: #d4d1d1;
 }
 .date-form-field{
   width: 440px;
+  padding: 12px  20px;
 }
 .guests-number{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 247px);
+  gap: 46px;
+}
+.text-title{
+  font-family:"PT Sans" sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.modal-search-button{
+  width:577px;
+  padding: 18px 77px;
+  border-radius: 10px;
+  background-color: #83B3D3;
+  border: none;
+}
+.text-button{
+  font-family:"PT Sans" sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
 }
 .modal-container-close{
-  display: ;
+  display:none ;
 }
