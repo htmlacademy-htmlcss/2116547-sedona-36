@@ -332,22 +332,20 @@
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиниц в Седоне</h2>
            <form class="search-date-form" action="https://echo.htmlacademy.ru/" method="post">
-            <section class="arrival-date">
+            <section class="hotel-stay">
               <label class="arrival-date-field">
-                <span class="arrival-date-title">Дата заезда:<span/>
+                <span class="date-title">Дата заезда:<span/>
                 <input class="date-form-field" type="text"  name="arrival-date" placeholder="27 апреля 2020">
                 <img src="images/main/calendar.png" width="16" height="15" alt="Иконка календаря">
-                <span>Мы не можем отправить вас в прошлое.</span>
+                <span class="error-text">Мы не можем отправить вас в прошлое.</span>
               <label/>
-            </section>
-            <section class="departure-date">
               <label class="departure-date-field">
-                <span class="arrival-date-title">Дата выезда:</span>
+                <span class="date-title">Дата выезда:</span>
                 <input class="date-form-field" type="text"  name="departure-date" placeholder="1 сентября 2021">
                 <img src="images/main/calendar.png" width="16" height="15" alt="Иконка календаря">
-                <span>На эти даты есть свободные номера. Пока есть.</span>
+                <span class="text">На эти даты есть свободные номера. Пока есть.</span>
              </label>
-           </section>
+          </section>
            <section class="guests-number">
             <div>
              <button class="adults-number" type="button"></button>
@@ -365,7 +363,7 @@
               <span>Найти</span>
             </button>
           </section>
-        </form>
+         </form>
         </section>
       </div>
     </div>
