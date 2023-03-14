@@ -94,7 +94,7 @@ body{
 }
 .navigation-user-link-search{
      display:block;
-     padding: 22px 12px;
+     padding: 18px 12px;
      margin: 0;
 }
 .navigation-user-link-search:hover path{
@@ -108,7 +108,7 @@ body{
 }
 .navigation-user-link-heart{
     display:block;
-    padding: 22px 12px;
+    padding: 18px 12px;
     margin: 0;
 }
 .navigation-user-link-heart::after{
@@ -1247,10 +1247,14 @@ background: #d4d1d1;
 .hotel-stay{
   display: flex;
   flex-wrap: wrap;
+  gap: 23px;
+
 }
 .arrival-date-field{
-  display: flex;
-  flex-wrap: wrap;
+
+}
+.departure-date-field{
+
 }
 .date-title{
   font-family:"PT Sans" sans-serif;
@@ -1280,9 +1284,19 @@ background: #d4d1d1;
   padding: 12px  20px;
 }
 .guests-number{
-  display: grid;
-  grid-template-columns: repeat(2, 247px);
-  gap: 46px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 88px;
+}
+.button-container-adults{
+  display: flex;
+}
+.person-form-field{
+
+}
+.button-container-children{
+  display: flex;
+  width: 110px;
 }
 .text-title{
   font-family:"PT Sans" sans-serif;
@@ -1307,5 +1321,5 @@ background: #d4d1d1;
   text-transform: uppercase;
 }
 .modal-container-close{
-  display:none ;
+  display: ;
 }
