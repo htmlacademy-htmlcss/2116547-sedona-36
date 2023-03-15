@@ -633,18 +633,23 @@ input:not(:placeholder-shown) {
     text-decoration: none;
     cursor: pointer;
 }
+
 .breadcrumbs-link:hover path{
   fill:rgba(255,255,255,0.6);
 }
+
 .breadcrumbs-link:active path{
   fill:rgba(255,255,255,0.3);
 }
+
 .breadcrumbs-link:hover{
   color: rgba(255,255,255,0.6);
 }
+
 .breadcrumbs-link:active{
   color: rgba(255,255,255,0.3);
 }
+
 .breadcrumbs-text{
     font-size: 16px;
     font-weight: 400;
@@ -652,20 +657,24 @@ input:not(:placeholder-shown) {
     color: #ffffff;
     text-decoration: none;
 }
+
 .catalog-apartments{
     padding-right: 70px;
     padding-left:70px;
     padding-bottom: 70px;
 }
+
 .catalog-filter{
     display: flex;
     flex-wrap: nowrap;
 }
+
 .catalog-filter-additionals{
     border-style: none;
     margin-right: 70px;
     padding: 0;
 }
+
 .catalog-filter-title{
   font-size: 20px;
   font-weight: 700;
@@ -673,11 +682,13 @@ input:not(:placeholder-shown) {
   line-height: 24px;
   margin-bottom: 32px;
 }
+
 .catalog-filter-list{
     list-style: none;
     margin: 0;
     padding:0;
 }
+
 .catalog-filter-item{
     font-size: 18px;
     font-weight: 400;
@@ -685,20 +696,18 @@ input:not(:placeholder-shown) {
     color: #ffffff;
     margin-bottom: 16px;
 }
+
 .catalog-filter-item:not(:last-child){
   margin-bottom: 16px;
 }
+
 .control-checkbox{
   position: relative;
   display: block;
   padding-left: 36px;
 }
-.control-checkbox-checked{
-  position: relative;
-  display: block;
-  padding-left: 36px;
-}
-.control-checkbox-checked::after{
+
+.control-input[type="checkbox"]:checked + .control-mark-checkbox::after {
   position: absolute;
   content: "";
   top: 5px;
@@ -709,17 +718,8 @@ input:not(:placeholder-shown) {
   background-repeat: no-repeat;
   background-position: center;
 }
-.control-radio{
-  position: relative;
-  display: block;
-  padding-left: 36px;
-}
-.control-radio-checked{
-  position: relative;
-  display: block;
-  padding-left: 36px;
-}
-.control-radio-checked::after{
+
+.control-input[type="radio"]:checked + .control-mark-radio::after{
   position: absolute;
   content: "";
   top: 5px;
@@ -729,6 +729,7 @@ input:not(:placeholder-shown) {
   border-radius: 100%;
   background-color: #3F5E72;
 }
+
 .control-mark-checkbox{
   position: absolute;
   top: 0;
@@ -1321,5 +1322,5 @@ background: #d4d1d1;
   text-transform: uppercase;
 }
 .modal-container-close{
-  display: ;
+  display:none ;
 }
